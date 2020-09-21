@@ -109,6 +109,10 @@ header {
 	padding: 0 15px;
 }
 
+.your_life .content_block .socials img:hover {
+	opacity: 80%;
+}
+
 .rappresent {
 	display: flex;
 	flex-direction: row;
@@ -214,6 +218,16 @@ header {
 	height: 20px;
 }
 
+.nav_items {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav_items button{
+	border: none;
+	background: none;
+}
+
 .implement {
 	display: flex;
 	flex-direction: row;
@@ -275,6 +289,7 @@ header {
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
+	font-size: 0;
 }
 
 .subscribe h3{
@@ -293,7 +308,13 @@ header {
 .subscribe input{
 	width: 340px;
 	height: 46px;
+	border: 0;
 	padding: 0;
+}
+
+.subscribe form {
+	display: flex;
+	flex-direction: row;
 }
 
 .subscribe input::placeholder{
@@ -437,10 +458,24 @@ button:hover {
 	background-color: blue;
 }
 
-.button_group button {
-	width: 128px;
-	height: 50px;
+.implement button:hover {
+	cursor: pointer;
+	background-color: blue;
+}
+
+.button_group img {
 
 	background: #00AFDB;
 	border-radius: 0px;
+
+	margin: 0 15px;
+}
+
+.button_group {
+	font-size: 0;
+}
+
+.button_group img:hover {
+	cursor: pointer;
+	opacity: 80%;
 }
